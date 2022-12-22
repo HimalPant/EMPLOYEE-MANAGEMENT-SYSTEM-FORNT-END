@@ -1,4 +1,13 @@
 h2{
     text-align: center;
     margin: 30px;
+    color: blue;
+}
+
+thead{
+    color: blue;
+}
+
+ tbody tr td {
+    color: rgb(92, 10, 67);
 }

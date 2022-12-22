@@ -6,6 +6,9 @@
          <th>emailId</th>
          <th>empAge</th>
          <th>working</th>
+         <th>Update action</th>
+         <th>Delete action</th>
+         <th>View action</th>
     </thead>
     <tbody>
         <tr *ngFor = "let employee of employees">
@@ -14,6 +17,15 @@
             <td> {{employee.emailId}}</td>
             <td> {{employee.empAge}}</td>
             <td> {{employee.working}}</td>
+            <td>
+                <button (click) = "updateEmployee(employee.id)" class="btn btn-success">Update</button>
+            </td>
+            <td>
+                <button (click) = "deleteEmployee(employee.id)" class="btn btn-danger">Delete</button>
+            </td>
+            <td>
+                <button (click) = "employeeDetails(employee.id)" class="btn btn-primary">View</button>
+            </td>
         </tr>
     </tbody>
 </table>

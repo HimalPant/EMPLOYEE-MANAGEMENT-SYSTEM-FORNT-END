@@ -4,6 +4,6 @@ export class Employee {
     lastName: string
     emailId: string
     empAge: number
-    working: boolean
+    working: string
 }
 

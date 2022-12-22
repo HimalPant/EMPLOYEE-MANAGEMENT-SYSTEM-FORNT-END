@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    margin: 30px;
+}
+
+
+input[type="text"]::placeholder {
+
+    text-align: center;
+}
+
+
+input[type="email"]::placeholder {
+
+    text-align: center;
+}
+
+.form-group{
+    margin-top: 20px;
+
+}
+
